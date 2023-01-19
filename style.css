@@ -1,0 +1,20 @@
+html, body {
+    font-family: 'Montserrat', sant-serif;
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+section {
+    margin-bottom: 85px;
+}
