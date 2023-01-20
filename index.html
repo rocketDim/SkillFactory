@@ -17,11 +17,9 @@
 <body>
     <div class="app" id="app">
         <header class="app__header header">
-            <div class="header__container">
-                <a href="/" class="header__logo">
-                    <img src="Components/Logo.svg" alt="SYSTEM" 
-                    width="190" height="32"
-                    class="header__logo-img">
+            <div class="header__container container">
+                <a href="#app" class="header__logo">
+                    <img src="Components/Logo.svg" alt="SYSTEM" width="190" height="32" class="header__logo-img">
                 </a>
 
                 <nav class="header__menu">
@@ -30,15 +28,45 @@
                             <a href="#app" class="header__menu-link">Домой</a>
                         </li>
                         <li class="header__menu-item">
-                            <a href="#features" class="header__menu-link">Особенности</a>
+                            <a href="#features" class="header__menu-link">
+                                Особенности
+                            </a>
                         </li>
                         <li class="header__menu-item">
-                            <a href="#benefits" class="header__menu-link">Преимущества</a>
+                            <a href="#benefits" class="header__menu-link">
+                                Преимущества
+                            </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
+
+        <main class="app__main">
+            <section class="hero">
+                <div class="hero__container container">
+                <div class="hero__content">
+                    <figure class="hero_figure">
+                        <img src="components/hero-1.jpg" alt="Разработано 2000+ приложений" class="hero__image">
+                    </figure>
+
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Разработано 2000+ приложений
+                        </h1>
+
+                        <div class="hero__subtitle">
+                            Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды,
+                            которые доступны
+                            в любое время суток
+                        </div>
+                        <button class="hero__button">
+                            Присоединяйтесь
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 
