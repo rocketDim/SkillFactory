@@ -137,3 +137,23 @@ section {
 .hero__button:hover {
     background-color: #04b4c7;  
 }
+
+/*footer*/
+
+.footer {
+    padding: 47px 0;
+    background-color: rgba(66, 74, 87, 0.5);
+}
+
+.footer__contaiter {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__copyright {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
