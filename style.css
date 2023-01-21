@@ -157,3 +157,35 @@ section {
     line-height: 44px;
     color: #FFFFFF;
 }
+
+/*features*/
+
+.features__list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.features__item {
+    width: calc(100% / 3);
+    display: flex;
+    align-items: flex-start;
+}
+
+.features__item + .features__item {
+    margin-left: 20px;
+}
+
+.features__item-icon {
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.features__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #424A57;
+    margin-bottom: 14px;
+}
+
+
