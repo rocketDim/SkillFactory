@@ -152,7 +152,7 @@ section {
     background-color: #04b4c7;  
 }
 
-/*адаптив*/
+/*адаптив hero*/
 
 @media (max-width: 1024px) {
     .hero {
@@ -287,6 +287,59 @@ section {
     line-height: 44px;
     color: #424A57;
     margin-bottom: 24px;  
+}
+
+/*адаптив benefits*/
+
+@media (max-width: 1024px) {
+    .benefits__list {
+        display: block;
+    }
+    
+    .benefits__item {
+        width: 100%;
+    }
+    
+    .benefits__item + .benefits__item {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    
+    .benefits__title {
+        margin-bottom: 24px;
+
+    }
+    
+    .benefits__item-figure {
+        margin-bottom: 16px;
+    }
+    
+    
+    .benefits__item-title {
+        line-height: 36px;
+        margin-bottom: 8px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits__item-title {
+        font-size: 32pz;
+        line-height: 36px;
+        margin-bottom: 16px;  
+    } 
+    
+    .benefits__item + .benefits__item {
+        margin-top: 24px;
+    }
+
+    .benefits__item-figure {
+        height: 208px;
+    }
+
+    .benefits__item-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 
