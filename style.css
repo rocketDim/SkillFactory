@@ -29,6 +29,20 @@ section {
     margin: 0 auto;
     padding: 0 100px;
   }
+
+/*адаптив*/
+
+@media (max-width: 1440px) {
+    container {
+        padding: 0 32px;
+      }  
+}
+
+@media (max-width: 768px) {
+    container {
+        padding: 0 16px;
+      }  
+}
  
   /*header*/
 
@@ -113,7 +127,7 @@ section {
 
 .hero__button {
     margin: 32px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -137,6 +151,49 @@ section {
 .hero__button:hover {
     background-color: #04b4c7;  
 }
+
+/*адаптив*/
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 64px 0;
+      }
+      
+      .hero__content {
+        display: block;
+    }
+    
+    .hero__figure {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .hero__text {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__figure {
+        margin-left: -16px;
+        margin-right: -16px;
+      }
+      
+      .hero__title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .hero__subtitle {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+
+
 
 /*footer*/
 
@@ -187,5 +244,56 @@ section {
     color: #424A57;
     margin-bottom: 14px;
 }
+
+/*benefits*/
+
+.benefits__list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.benefits__item {
+    width: calc(100% / 3);
+}
+
+.benefits__item + .benefits__item {
+    margin-left: 20px;
+}
+
+.benefits__title {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #424A57;
+}
+
+.benefits__item-figure {
+    height: 317px;
+    margin-bottom: 32px;
+}
+
+.benefits__item-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 4px;
+}
+
+.benefits__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #424A57;
+    margin-bottom: 24px;  
+}
+
+
+
+
+
+
+
 
 
